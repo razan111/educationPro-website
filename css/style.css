@@ -4,6 +4,9 @@ body{
 p{
     text-align: justify;
 }
+a{
+    text-decoration: none;
+}
 
 .image-item-1{
     background-image: url("../images/cover/cover-1.png");
