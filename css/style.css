@@ -1,6 +1,9 @@
 body{
     background-color: #F4F4F4;
 }
+p{
+    text-align: justify;
+}
 
 .image-item-1{
     background-image: url("../images/cover/cover-1.png");
@@ -19,4 +22,6 @@ body{
     background-repeat: no-repeat;
     background-size: contain;
 }
-
+.ready{
+    background-color: #289BDE;
+}
