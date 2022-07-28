@@ -10,51 +10,64 @@ a{
     text-decoration: none;
 }
 
-.image-item-1{
-    background-image: url("../images/cover/cover-1.png");
-    background-repeat: no-repeat;
-    background-size: contain;
+
+.s:after {
+    content:"";
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background-color:rgba(29, 29, 29, 0.7);
+  }
+
+.explore-bg{
+    background-color: #F4FAFD;
 }
-
-.image-item-2{
-    background-image: url("../images/cover/cover-2.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-.image-item-3{
-    background-image: url("../images/cover/cover-3.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-.carousel-caption {
-    bottom: 14.25rem;
-}
-
-
 .ready{
     background-color: #289BDE;
 }
 
-
-
-.razan{
-    width: 70px;
+.carousel-caption {
+    bottom: 14.6rem;
+   
 }
+.razan:hover{
+    background-color: #289BDE;
 
-
-@media screen and (max-width: 575px){
+}
+ @media screen and (max-width: 575px){
     .carousel-caption {
-        bottom: -1.0rem;
+        bottom: 3.0rem;
        
     }
     
+} 
+
+@media screen and (min-width: 576px) and (max-width: 767px){
+    .carousel-caption {
+        bottom: 2.6rem;
+       
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px){
     .carousel-caption {
         bottom: 2.6rem;
        
+    }
+} 
+
+@media screen and (min-width: 992px) and (max-width: 1399px){
+    .carousel-caption {
+        bottom: 7.6rem;
+       
+    }
+} 
+
+
+@media screen and (max-width: 767px) {
+    .s img{
+        height: 400px;
     }
 }
