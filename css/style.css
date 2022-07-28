@@ -27,6 +27,12 @@ a{
     background-repeat: no-repeat;
     background-size: contain;
 }
+
+.carousel-caption {
+    bottom: 14.25rem;
+}
+
+
 .ready{
     background-color: #289BDE;
 }
@@ -35,4 +41,20 @@ a{
 
 .razan{
     width: 70px;
+}
+
+
+@media screen and (max-width: 575px){
+    .carousel-caption {
+        bottom: -1.0rem;
+       
+    }
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .carousel-caption {
+        bottom: 2.6rem;
+       
+    }
 }
