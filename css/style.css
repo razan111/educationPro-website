@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
 body{
     background-color: #F4F4F4;
+    font-family: 'Roboto', sans-serif;
 }
 p{
     text-align: justify;
@@ -29,9 +31,7 @@ a{
     background-color: #289BDE;
 }
 
-/* .fa-star{
-    color: ;
-} */
+
 
 .razan{
     width: 70px;
